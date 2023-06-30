@@ -40,9 +40,9 @@ class Color extends Field
     }
 
 
-    public function compact()
+    public function compact(bool $compact = true)
     {
-        return $this->withMeta(['compact' => $compact]);
+        return $this->pickerType('compact');
     }
 
 
