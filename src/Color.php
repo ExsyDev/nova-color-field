@@ -42,7 +42,7 @@ class Color extends Field
 
     public function compact()
     {
-        return $this->pickerType('compact');
+        return $this->withMeta(['compact' => $compact]);
     }
 
 
